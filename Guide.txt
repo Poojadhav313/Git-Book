@@ -1,0 +1,14 @@
+Create .git
+>> git init
+
+Add all files
+>> git add .
+
+Commit
+>> git commit -m "msg"
+
+Add remote url at the time of creating new repo
+>> git remote add origin http://
+
+Push changes
+>> git pust -u origin master
