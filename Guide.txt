@@ -12,3 +12,19 @@ Add remote url at the time of creating new repo
 
 Push changes
 >> git pust -u origin master
+
+----- Branch -----
+
+Check existing branches
+>> git branch
+
+Switch to existing branch
+>> git switch <branch-name>
+	or
+>> git checkout <branch-name>
+
+Create and switch to new branch
+>> git checkout -b <new-branch>
+
+Rename existing branch
+>> git branch -m <old-name> <new-name>
