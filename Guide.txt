@@ -13,6 +13,7 @@ Add remote url at the time of creating new repo
 Push changes
 >> git pust -u origin master
 
+<<<<<<< HEAD
 
 ----- Other stuff -----
 View previous commit history
@@ -27,3 +28,20 @@ Change remote location in case of changing repo name in github
 Undo last pushed commit without affection other commits
 >> git reset HEAD~1
 >> git push -f origin master
+=======
+----- Branch -----
+
+Check existing branches
+>> git branch
+
+Switch to existing branch
+>> git switch <branch-name>
+	or
+>> git checkout <branch-name>
+
+Create and switch to new branch
+>> git checkout -b <new-branch>
+
+Rename existing branch
+>> git branch -m <old-name> <new-name>
+>>>>>>> branch-commands
